@@ -1,0 +1,119 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+   
+}
+
+body {
+    background-image: url(./Back4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+}
+
+img {
+    margin: auto;
+    display: block;
+  }
+
+h1, h2 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+    background-color: rgba(218, 210, 48, 0.829);
+    
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: rgba(218, 210, 48, 0.829);
+    text-align: center;
+    margin-top: 40px;
+}
+
+ol{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+#ordenada1 {
+    margin-left: -70px;
+}
+
+li {
+margin-top: 10px;
+font-size: 25px;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgba(218, 210, 48, 0.829)
+    
+}
+
+button:hover {
+    font-size: 20px;
+    background-color: black
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgba(218, 210, 48, 0.829)
+}
+
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+h3{
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#listafinal {
+    text-align: center;
+    
+}
+
+#listas {
+    list-style: none;
+    font-size: 20px;
+}
+
+#listaordenada {
+    display: flex
+}
+
+@media (max-width:796px) {
+
+    buttom {
+
+       margin-left: 50px;
+    }
+    
+    ol {
+        margin-right: -55px;
+        list-style: none;
+    }
+
+    
+
+
+}
